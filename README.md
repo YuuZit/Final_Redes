@@ -12,9 +12,9 @@ Este repositorio contiene el despliegue automatizado de una topología de red co
 Para levantar la topología completa de 20 nodos, simplemente clona el repositorio y ejecuta el comando de inicio en la raíz del proyecto:
 
 bash
-# 1. Clonar el repositorio
+## 1. Clonar el repositorio
 git clone [https://github.com/YuuZit/Final_Redes.git](https://github.com/YuuZit/Final_Redes.git)
 cd Final_Redes/Kathara
 
-# 2. Iniciar el laboratorio (tarda unos segundos en arrancar los contenedores)
+## 2. Iniciar el laboratorio (tarda unos segundos en arrancar los contenedores)
 kathara lstart
