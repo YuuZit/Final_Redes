@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Python - Laboratorio Redes</title>
+</head>
+<body>
+  <h2>Iniciar Sesión (Método POST)</h2>
+  <form action="/cgi-bin/login.py" method="POST">
+    Usuario: <input type="text" name="user" required><br><br>
+    Contraseña: <input type="password" name="pass" required><br><br>
+    <input type="submit" value="Ingresar con POST">
+  </form>
+
+  <hr>
+
+  <h2>Iniciar Sesión (Método GET)</h2>
+  <form action="/cgi-bin/login.py" method="GET">
+    Usuario: <input type="text" name="user" required><br><br>
+    Contraseña: <input type="password" name="pass" required><br><br>
+    <input type="submit" value="Ingresar con GET">
+  </form>
+</body>
+</html>

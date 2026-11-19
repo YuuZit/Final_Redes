@@ -1,0 +1,8 @@
+ip a add 172.16.0.1/18 dev eth0
+ip route add default via 172.16.63.254
+
+chmod +x /usr/lib/cgi-bin/login.py
+a2enmod cgid
+
+rm -f /var/run/apache2/apache2.pid
+/etc/init.d/apache2 start

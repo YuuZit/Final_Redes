@@ -1,0 +1,24 @@
+$TTL    604800
+@       IN      SOA     hc.selvent.izo. admin.selvent.izo. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      hc.selvent.izo.
+
+; --- PTR Red 172.16 ---
+1.64        IN      PTR     hc.selvent.izo.
+254.95      IN      PTR     rc0.selvent.izo.
+254.63      IN      PTR     rab1.selvent.izo.
+1.108       IN      PTR     ht4.selvent.izo.
+1.0	    IN      PTR     hb.selvent.izo.
+1.96        IN      PTR     hd.selvent.izo.
+1.104       IN      PTR     he.selvent.izo.
+2.108       IN      PTR     ht5.selvent.izo.
+1.10        IN      PTR     hu.selvent.izo.
+254.103     IN      PTR     rd0.selvent.izo.
+254.105     IN      PTR     re0.selvent.izo.
+254.111     IN      PTR     rt0.selvent.izo.
+254.11      IN      PTR     ruv1.selvent.izo.

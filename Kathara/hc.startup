@@ -1,0 +1,4 @@
+ip a add 172.16.64.1/19 dev eth0
+ip route add default via 172.16.95.254
+
+/etc/init.d/named start

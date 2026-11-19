@@ -1,0 +1,98 @@
+$TTL    604800
+@       IN      SOA     hc.selvent.izo. admin.selvent.izo. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      hc.selvent.izo.
+
+; --- PTR Red 192.168 ---
+2.100       IN      PTR     rc1.selvent.izo.
+5.100       IN      PTR     rc2.selvent.izo.
+37.100      IN      PTR     rc3.selvent.izo.
+90.100      IN      PTR     rab2.selvent.izo.     
+93.100      IN      PTR     rab3.selvent.izo.
+1.100       IN      PTR     rab4.selvent.izo.
+6.100       IN      PTR     rd1.selvent.izo.
+9.100       IN      PTR     rd2.selvent.izo.
+25.100      IN      PTR     rd3.selvent.izo.
+29.100      IN      PTR     rd4.selvent.izo.
+13.100      IN	    PTR    re1.selvent.izo.
+10.100      IN	    PTR    re2.selvent.izo.
+
+126.1       IN	    PTR    rf0.selvent.izo.
+17.100      IN	    PTR    rf1.selvent.izo.
+21.100      IN	    PTR    rf2.selvent.izo.
+14.100      IN	    PTR    rf3.selvent.izo.
+
+134.1      IN	    PTR    rg0.selvent.izo.
+18.100     IN	    PTR    rg1.selvent.izo.
+
+138.1      IN	    PTR    rh0.selvent.izo.
+26.100     IN	    PTR    rh1.selvent.izo.
+22.100     IN	    PTR    rh2.selvent.izo.
+
+254.2      IN	    PTR    ri0.selvent.izo.
+97.100     IN	    PTR    ri1.selvent.izo.
+65.100     IN	    PTR    ri2.selvent.izo.
+34.100     IN	    PTR    ri3.selvent.izo.
+30.100     IN	    PTR    ri4.selvent.izo.
+
+254.3      IN	    PTR    rj0.selvent.izo.
+38.100     IN	    PTR    rj1.selvent.izo.
+33.100     IN	    PTR    rj2.selvent.izo.
+41.100     IN	    PTR    rj3.selvent.izo.
+
+254.4      IN	    PTR    rk0.selvent.izo.
+42.100     IN	    PTR    rk1.selvent.izo.
+45.100     IN	    PTR    rk2.selvent.izo.
+
+254.5      IN	    PTR    rl0.selvent.izo.
+46.100     IN	    PTR    rl1.selvent.izo.
+49.100     IN	    PTR    rl2.selvent.izo.
+
+254.6      IN	    PTR    rm0.selvent.izo.
+53.100     IN	    PTR    rm1.selvent.izo.
+50.100     IN	    PTR    rm2.selvent.izo.
+61.100     IN	    PTR    rm3.selvent.izo.
+
+254.7      IN	    PTR    rn0.selvent.izo.
+57.100     IN	    PTR    rn1.selvent.izo.
+54.100     IN	    PTR    rn2.selvent.izo.
+
+254.8      IN	    PTR    ro0.selvent.izo.
+58.100     IN	    PTR    ro1.selvent.izo.
+
+254.1.2    IN	    PTR    rp0.selvent.izo.
+73.100     IN	    PTR    rp1.selvent.izo.
+69.100     IN	    PTR    rp2.selvent.izo.
+62.100     IN	    PTR    rp3.selvent.izo.
+66.100     IN	    PTR    rp4.selvent.izo.
+
+70.100     IN	    PTR    rq1.selvent.izo.
+
+74.100     IN	    PTR    rr1.selvent.izo.
+81.100     IN	    PTR    rr2.selvent.izo.
+85.100     IN	    PTR    rr3.selvent.izo.
+
+82.100     IN	    PTR    rs1.selvent.izo.
+
+86.100     IN	    PTR    rt1.selvent.izo.
+89.100     IN	    PTR    rt2.selvent.izo.
+
+126.20     IN	    PTR    ruv0.selvent.izo.
+98.100    IN	    PTR    ruv2.selvent.izo.
+94.100     IN	    PTR    ruv3.selvent.izo.
+1.1	   IN	    PTR    hf.selvent.izo.
+129.1	   IN	    PTR	   hg.selvent.izo.
+137.1	   IN	    PTR    hh.selvent.izo.
+1.2	   IN	    PTR    hi.selvent.izo.
+1.3	   IN	    PTR    hj.selvent.izo.
+1.4	   IN	    PTR    hk.selvent.izo.
+1.5	   IN	    PTR    hl.selvent.izo.
+1.6	   IN	    PTR    hm.selvent.izo.
+1.7	   IN	    PTR    hn.selvent.izo.
+1.8        IN	    PTR    ho.selvent.izo.
+1.20	   IN	    PTR    hv.selvent.izo.

@@ -1,0 +1,8 @@
+# LAN LA y LB
+ip a add 192.168.8.254/24 dev eth0
+
+# Enlaces WAN (EAB_C, ET_AB, EAB_UV)
+ip a add 192.168.100.58/30 dev eth1
+
+ulimit -n 1024
+/etc/init.d/quagga start

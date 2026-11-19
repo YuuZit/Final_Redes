@@ -1,0 +1,18 @@
+zone "selvent.izo" {
+    type master;
+    file "/etc/bind/db.selvent.izo";
+};
+zone "10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.10";
+};
+
+zone "16.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.172.16";
+};
+
+zone "168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.168";
+};

@@ -1,0 +1,18 @@
+# LAN LC
+ip a add 172.16.95.254/19 dev eth0
+
+# Enlaces 
+ip a add 192.168.100.2/30 dev eth1
+ip a add 192.168.100.5/30 dev eth2
+ip a add 192.168.100.37/30 dev eth3
+
+#Interfaz para el internet
+ip link set dev eth4 up
+dhclient eth3
+
+ulimit -n 1024
+/etc/init.d/quagga start
+
+iptables -t nat -A POSTROUTING -o eth4 -j MASQUERADE
+
+
